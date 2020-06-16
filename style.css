@@ -157,6 +157,24 @@ select {
   src: url(./fonts/youngserif.woff2), url(./fonts/youngserif.woff);
 }
 
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   font-family: "IBM Plex Mono";
   font-size: 16px;
