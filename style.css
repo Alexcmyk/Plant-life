@@ -286,6 +286,13 @@ div.slides img {
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+div.slides:hover img {
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 div.slides img:first-child {
