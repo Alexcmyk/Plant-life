@@ -1,4 +1,13 @@
 /* Fonts */
+@font-face {
+  src: url(./fonts/ibm-plex-mono.woff2), url(./fonts/ibm-plex-mono.woff);
+  font-family: "Plex Mono";
+}
+
+@font-face {
+  src: url(./fonts/youngserif.woff2), url(./fonts/youngserif.woff);
+  font-family: "Young Serif";
+}
 
 /*
 *  html5resetcss
