@@ -160,6 +160,15 @@ select {
 
 /* End of reset */
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   font-weight: "Plex Mono";
   font-size: 16px;
@@ -174,11 +183,6 @@ main {
   background-color: #fff;
   min-height: 100vh;
   transition: transform 0.3s ease-in-out;
-}
-
-h1 {
-  font-size: 24px;
-  font-weight: 700;
 }
 
 nav {
@@ -222,4 +226,55 @@ a.toggle-nav img {
 
 main.open {
   transform: translate(240px, 0);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section div {
+  width: 350px;
+}
+
+section div.content {
+  margin: 0 0 0 70px;
+}
+
+h1 {
+  font-style: "Young Serif";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin: 20px 0;
+}
+
+div.slides {
+  position: relative;
+  height: 475px;
+}
+
+div.slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+div.slides img:first-child {
+  z-index: 1;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #00b98d;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 3px;
 }
