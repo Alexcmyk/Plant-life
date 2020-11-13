@@ -291,8 +291,8 @@ div.slides img {
 }
 
 div.slides:hover img {
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 div.slides img:first-child {
