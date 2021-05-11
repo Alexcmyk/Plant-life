@@ -15,6 +15,10 @@ slideArea.addEventListener('click', () => {
 
     z += 1;
 
+    images.forEach((image) => {
+        image.style.animation = '';
+    });
+
     images[currentSlide].style.zIndex = z;
     images[currentSlide].style.animation = 'fade 0.4s';
 });
