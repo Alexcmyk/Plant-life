@@ -15,6 +15,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #2a2a2a;
+    overflow: hidden;
 }
 
 nav {
@@ -29,6 +30,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translateX(-240px);
+    transition: all 0.4s ease-in-out;
 }
 
 nav a {
@@ -48,6 +51,9 @@ main {
 main.open {
     transform: translateX(240px);
 }
+nav.open {
+    transform: translateX(0px);
+}
 
 a.toggle-nav {
     position: fixed;
@@ -56,6 +62,8 @@ a.toggle-nav {
     padding: 24px;
     text-decoration: none;
     color: #2a2a2a;
+    display: flex;
+    align-items: center;
 }
 
 a.toggle-nav img {

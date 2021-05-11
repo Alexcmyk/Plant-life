@@ -7,7 +7,7 @@ let z = 1;
 // Click slideshow
 
 slideArea.addEventListener('click', () => {
-    currentSlide += 2;
+    currentSlide += 1;
 
     if (currentSlide > images.length - 1) {
         currentSlide = 0;
