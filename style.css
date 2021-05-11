@@ -183,6 +183,7 @@ body {
 }
 
 nav {
+<<<<<<< HEAD
     background-color: #00b98d;
     font-size: 24px;
     font-family: 'Young Serif';
@@ -201,6 +202,26 @@ nav {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+=======
+  background-color: #00b98d;
+  font-size: 24px;
+  font-family: "Young Serif";
+  height: 100vh;
+  position: fixed;
+  width: 240px;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+>>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 nav a {
@@ -219,8 +240,13 @@ main {
 }
 
 main.open {
+<<<<<<< HEAD
     -webkit-transform: translateX(240px);
     transform: translateX(240px);
+=======
+  -webkit-transform: translateX(240px);
+  transform: translateX(240px);
+>>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 a.toggle-nav {
@@ -238,6 +264,7 @@ a.toggle-nav img {
 }
 
 section {
+<<<<<<< HEAD
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -248,6 +275,18 @@ section {
     -ms-flex-align: center;
     align-items: center;
     height: 100vh;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+>>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 section div {
@@ -291,11 +330,19 @@ div.slides img {
 }
 
 div.slides:hover img {
+<<<<<<< HEAD
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+=======
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+>>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 div.slides img:first-child {
     z-index: 1;
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+>>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
