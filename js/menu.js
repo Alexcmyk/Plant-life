@@ -1,7 +1,6 @@
 const toggleTag = document.querySelector('a.toggle-nav');
 const mainTag = document.querySelector('main');
 const navTag = document.querySelector('nav');
-console.log(navTag);
 
 toggleTag.addEventListener('click', () => {
     // Toggle the open class on click

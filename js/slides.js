@@ -16,15 +16,15 @@ slideArea.addEventListener('click', () => {
     z += 1;
 
     images[currentSlide].style.zIndex = z;
-    images[currentSlide].style.animation = 'fade 0.3s';
+    images[currentSlide].style.animation = 'fade 0.4s';
 });
 
 // Mouse over to random transfom
 
 slideArea.addEventListener('mouseover', () => {
     images.forEach((image) => {
-        const x = 25 * Math.floor(Math.random() * 5) - 50;
-        const y = 25 * Math.floor(Math.random() * 5) - 50;
+        const x = 20 * Math.floor(Math.random() * 5 - 2);
+        const y = 20 * Math.floor(Math.random() * 5 - 2);
 
         image.style.transform = `translate(${x}px, ${y}px)`;
     });
@@ -34,9 +34,6 @@ slideArea.addEventListener('mouseover', () => {
 
 slideArea.addEventListener('mouseout', () => {
     images.forEach((image) => {
-        const y = 0;
-        const x = 0;
-
         image.style.transform = '';
     });
 });
