@@ -6,7 +6,7 @@ let z = 1;
 
 // Click slideshow
 
-slideArea.addEventListener('click', function () {
+slideArea.addEventListener('click', () => {
     currentSlide += 2;
 
     if (currentSlide > images.length - 1) {
@@ -21,7 +21,7 @@ slideArea.addEventListener('click', function () {
 
 // Mouse over to random transfom
 
-slideArea.addEventListener('mouseover', function () {
+slideArea.addEventListener('mouseover', () => {
     images.forEach((image) => {
         const x = 25 * Math.floor(Math.random() * 5) - 50;
         const y = 25 * Math.floor(Math.random() * 5) - 50;
@@ -32,7 +32,7 @@ slideArea.addEventListener('mouseover', function () {
 
 // Mouse out to reset
 
-slideArea.addEventListener('mouseout', function () {
+slideArea.addEventListener('mouseout', () => {
     images.forEach((image) => {
         const y = 0;
         const x = 0;
