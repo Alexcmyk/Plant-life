@@ -100,21 +100,17 @@ nav,
 section {
     display: block;
 }
-
 body {
     line-height: 1;
 }
-
 ol,
 ul {
     list-style: none;
 }
-
 blockquote,
 q {
     quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -122,7 +118,6 @@ q:after {
     content: '';
     content: none;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -142,6 +137,7 @@ select {
 
 * {
     -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -157,14 +153,8 @@ select {
     src: url(./fonts/youngserif.woff2), url(./fonts/youngserif.woff);
 }
 
-@-webkit-keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+@import 'reset';
+@import 'typography';
 
 @keyframes fade {
     0% {
@@ -183,45 +173,17 @@ body {
 }
 
 nav {
-<<<<<<< HEAD
     background-color: #00b98d;
     font-size: 24px;
     font-family: 'Young Serif';
     height: 100vh;
     position: fixed;
-    width: 240px;
+    width: 100px;
     left: 0;
     top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-=======
-  background-color: #00b98d;
-  font-size: 24px;
-  font-family: "Young Serif";
-  height: 100vh;
-  position: fixed;
-  width: 240px;
-  left: 0;
-  top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
->>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 nav a {
@@ -235,18 +197,11 @@ main {
     z-index: 1;
     background-color: #fff;
     min-height: 100vh;
-    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
 main.open {
-<<<<<<< HEAD
-    -webkit-transform: translateX(240px);
     transform: translateX(240px);
-=======
-  -webkit-transform: translateX(240px);
-  transform: translateX(240px);
->>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 a.toggle-nav {
@@ -264,29 +219,10 @@ a.toggle-nav img {
 }
 
 section {
-<<<<<<< HEAD
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     height: 100vh;
-=======
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100vh;
->>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 section div {
@@ -302,11 +238,9 @@ h1 {
     font-family: 'Young Serif';
     line-height: 1.2;
 }
-
 p {
     margin: 20px 0;
 }
-
 a.button {
     display: inline-block;
     background-color: #00b98d;
@@ -325,24 +259,13 @@ div.slides img {
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 div.slides:hover img {
-<<<<<<< HEAD
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-=======
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
->>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
 }
 
 div.slides img:first-child {
     z-index: 1;
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=style.css.map */
-=======
->>>>>>> 3687471a267bbd0c6b643e50be0096eb28deebb5
